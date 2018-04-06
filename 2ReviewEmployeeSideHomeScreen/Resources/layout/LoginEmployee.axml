@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#5DADE2">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:alpha="1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textColor="#E67E22"
+                android:textSize="60dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REVIEW"
+                android:textColor="#FFFFFF"
+                android:textSize="60dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXPRESS YOURSELF"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_gravity="center" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            style="textinputlayout"
+            android:textColorHint="#ffffff"
+            app:errorEnabled="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/userNameTextInputLayout">
+            <EditText
+                android:hint="Username"
+                android:maxLength="30"
+                android:id="@+id/userNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            style="textinputlayout"
+            android:textColorHint="#ffffff"
+            app:errorEnabled="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordTextInputLayout">
+            <EditText
+                style="edittextStyle"
+                android:hint="Password"
+                android:maxLength="8"
+                android:inputType="textPassword"
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <CheckBox
+            android:text="Remember Me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="checkbox"
+            android:id="@+id/rememberMeCheckBox" />
+        <Button
+            android:text="Login"
+            style="btn"
+            android:password="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginButton" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password ?"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/forgotPasswordTextView" />
+    </LinearLayout>
+</LinearLayout>

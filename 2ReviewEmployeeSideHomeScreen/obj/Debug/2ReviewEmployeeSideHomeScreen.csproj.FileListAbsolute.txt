@@ -1,0 +1,151 @@
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\2ReviewEmployeeSideHomeScreen.csprojResolveAssemblyReference.cache
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\2ReviewEmployeeSideHomeScreen.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\2ReviewEmployeeSideHomeScreen.pdb
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\x_2ReviewEmployeeSideHomeScreen.x_2ReviewEmployeeSideHomeScreen.apk
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\x_2ReviewEmployeeSideHomeScreen.x_2ReviewEmployeeSideHomeScreen-Signed.apk
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Microsoft.Azure.Mobile.Client.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Microsoft.Azure.Mobile.Client.SQLiteStore.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Newtonsoft.Json.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PCLCrypto.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PInvoke.BCrypt.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PInvoke.Kernel32.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PInvoke.NCrypt.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PInvoke.Windows.Core.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Refractored.Controls.CircleImageView.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\SQLitePCLRaw.batteries_green.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\SQLitePCLRaw.core.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\SQLitePCLRaw.lib.e_sqlite3.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Validation.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Arch.Core.Common.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Arch.Lifecycle.Common.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.Annotations.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.Compat.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.CustomTabs.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.Design.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.Fragment.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.Transition.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.v4.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.v7.Palette.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Microsoft.Azure.Mobile.Client.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Microsoft.Azure.Mobile.Client.SQLiteStore.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Newtonsoft.Json.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PCLCrypto.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PInvoke.BCrypt.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PInvoke.Kernel32.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PInvoke.NCrypt.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PInvoke.Windows.Core.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Refractored.Controls.CircleImageView.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Validation.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\2ReviewEmployeeSideHomeScreen.csproj.CoreCompileInputs.cache
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\2ReviewEmployeeSideHomeScreen.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\2ReviewEmployeeSideHomeScreen.pdb
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\android\bin\x_2ReviewEmployeeSideHomeScreen.x_2ReviewEmployeeSideHomeScreen.apk
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\loginemployee.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\splashscreenemployee.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\appbarmain.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\navigation_2.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\scheduleround.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\home.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\addemployee.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\adddesignation.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\managequestion.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\newuser.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\userinput.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\empquestionwiserating.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\values\strings.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\custom_seekbar_progress.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\adddesignation.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\adddesignation_2.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\addemployee.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\addemployee_2.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\adduser.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\adduser_2.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\back.jpg
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\back_2.jpg
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\backimage.jpg
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\backimage_2.jpg
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\btn.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\btn_2.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\final_image.jpg
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\final_image_2.jpg
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\home.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\home_2.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\ic_menu.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\icon.jpg
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\icon1.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\icon1_2.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\line.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\line_2.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\logout.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\main.jpg
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\main_2.jpg
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\mainscreen.jpg
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\mainscreen_2.jpg
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\managequestion.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\managequestion_2.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\plus1.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\plus1_2.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\scheduleround.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\scheduleround_2.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\splashscreen.jpg
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\splashscreen_2.jpg
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\menu\menu.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\values\colors.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\values\styles.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\toolbar.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\header.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\mipmap-hdpi\ic_grade_black_24dp.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\mipmap-mdpi\ic_grade_black_24dp.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\mipmap-xhdpi\ic_grade_black_24dp.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\mipmap-xxhdpi\ic_grade_black_24dp.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\mipmap-xxxhdpi\ic_grade_black_24dp.png
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\custom_seekbar_progress1.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\custom_seekbar_progress2.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\custom_seekbar_progress3.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\custom_seekbar_progress4.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\empsidestickyheader.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\R.cs.flag
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\uploadflags.txt
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\2ReviewEmployeeSideHomeScreen.dll.mdb
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\android\assets\2ReviewEmployeeSideHomeScreen.dll.mdb
+bin\Debug\Mono.Android.pdb
+bin\Debug\mscorlib.pdb
+bin\Debug\System.Core.pdb
+bin\Debug\System.pdb
+bin\Debug\System.IO.Compression.pdb
+bin\Debug\System.Net.Http.pdb
+bin\Debug\System.Xml.pdb
+bin\Debug\System.Runtime.Serialization.pdb
+bin\Debug\System.ServiceModel.Internals.pdb
+bin\Debug\System.Xml.Linq.pdb
+bin\Debug\Microsoft.CSharp.pdb
+bin\Debug\System.Numerics.pdb
+bin\Debug\Mono.Security.pdb
+bin\Debug\System.ComponentModel.Composition.pdb
+obj\Debug\linksrc\2ReviewEmployeeSideHomeScreen.dll.mdb
+obj\Debug\linksrc\Mono.Android.pdb
+obj\Debug\linksrc\mscorlib.pdb
+obj\Debug\linksrc\System.Core.pdb
+obj\Debug\linksrc\System.pdb
+obj\Debug\linksrc\System.IO.Compression.pdb
+obj\Debug\linksrc\System.Net.Http.pdb
+obj\Debug\linksrc\System.Xml.pdb
+obj\Debug\linksrc\System.Runtime.Serialization.pdb
+obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+obj\Debug\linksrc\System.Xml.Linq.pdb
+obj\Debug\linksrc\Microsoft.CSharp.pdb
+obj\Debug\linksrc\System.Numerics.pdb
+obj\Debug\linksrc\Mono.Security.pdb
+obj\Debug\linksrc\System.ComponentModel.Composition.pdb
