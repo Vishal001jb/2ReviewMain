@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="x_2ReviewEmployeeSideHomeScreen.x_2ReviewEmployeeSideHomeScreen" android:versionCode="1" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="x_2ReviewEmployeeSideHomeScreen.x_2ReviewEmployeeSideHomeScreen" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
   <!--suppress UsesMinSdkAttributes-->
-  <uses-sdk android:minSdkVersion="21" />
+  <uses-sdk android:minSdkVersion="19" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:label="@string/app_name" android:name="android.app.Application" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:label="EmpQuestionWiseRating" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e3a693f588173924be4f4eeb0d479edf.EmpQuestionWiseRating">
+    <activity android:configChanges="orientation|screenSize" android:label="EmpQuestionWiseRating" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e3a693f588173924be4f4eeb0d479edf.EmpQuestionWiseRating" />
+    <activity android:configChanges="orientation|screenSize" android:label="2Review" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e3a693f588173924be4f4eeb0d479edf.LoginEmployee" />
+    <activity android:configChanges="orientation|screenSize" android:label="2Review" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e3a693f588173924be4f4eeb0d479edf.Navigation">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:configChanges="orientation|screenSize" android:label="2Review" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e3a693f588173924be4f4eeb0d479edf.LoginEmployee" />
-    <activity android:configChanges="orientation|screenSize" android:label="2Review" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e3a693f588173924be4f4eeb0d479edf.Navigation" />
     <activity android:configChanges="orientation|screenSize" android:label="2Review" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e3a693f588173924be4f4eeb0d479edf.newuser" />
     <activity android:configChanges="orientation|screenSize" android:label="2Review" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e3a693f588173924be4f4eeb0d479edf.userinput" />
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="2Review" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e3a693f588173924be4f4eeb0d479edf.SplashscreenActivity" />

@@ -1,23 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using _2ReviewEmployeeSideHomeScreen.ActivityFragment;
+﻿using _2ReviewEmployeeSideHomeScreen.ActivityFragment;
 using _2ReviewEmployeeSideHomeScreen.Extra;
 using Android.App;
-using Android.Content;
 using Android.Content.PM;
 using Android.OS;
-using Android.Runtime;
 using Android.Support.Design.Widget;
 using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Views;
-using Android.Widget;
 
 namespace _2ReviewEmployeeSideHomeScreen.Activity
 {
-    [Activity(Label = "2Review", Theme = "@style/Theme.AppCompat.Light.NoActionBar", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
+    [Activity(Label = "2Review", MainLauncher = true, Theme = "@style/Theme.AppCompat.Light.NoActionBar", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
     public class Navigation : AppCompatActivity
     {
         Android.Support.V7.Widget.Toolbar Toolbar;
@@ -68,12 +61,12 @@ namespace _2ReviewEmployeeSideHomeScreen.Activity
             {
                 case Resource.Id.nav_home:
                     fragment = new HomeFragment();
-                    ft.Replace(Resource.Id.frame, fragment).Commit();
+                    ft.Replace(Resource.Id.frame, fragment);
 
                     break;
                 case Resource.Id.nav_profile:
                     fragment = new AddemployeeFragment();
-                    ft.Replace(Resource.Id.frame, fragment).Commit();
+                    ft.Replace(Resource.Id.frame, fragment);
 
                     break;
                 case Resource.Id.nav_task:
@@ -84,6 +77,8 @@ namespace _2ReviewEmployeeSideHomeScreen.Activity
                     break;
 
             }
+            ft.AddToBackStack(null);
+            ft.Commit();
             if (fragment != null)
             {
                 SupportFragmentManager.BeginTransaction().Replace(Resource.Id.frame, fragment).Commit();

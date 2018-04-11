@@ -35,6 +35,9 @@
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
     <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <BundleAssemblies>false</BundleAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -174,9 +177,25 @@
     <Compile Include="Activity\newuser.cs" />
     <Compile Include="Activity\userinput.cs" />
     <Compile Include="Extra\MyActionBar_2.cs" />
+    <Compile Include="ModelClasses\Answer.cs" />
+    <Compile Include="ModelClasses\Assignment.cs" />
+    <Compile Include="ModelClasses\Designation.cs" />
+    <Compile Include="ModelClasses\Employee.cs" />
+    <Compile Include="ModelClasses\EmployeeCredentials.cs" />
+    <Compile Include="ModelClasses\EmployeeDesignation.cs" />
+    <Compile Include="ModelClasses\EmployeePerformance.cs" />
+    <Compile Include="ModelClasses\EmployeePoints.cs" />
+    <Compile Include="ModelClasses\Form.cs" />
+    <Compile Include="ModelClasses\FormQuestion.cs" />
+    <Compile Include="ModelClasses\Question.cs" />
+    <Compile Include="ModelClasses\QuestionDesignation.cs" />
+    <Compile Include="ModelClasses\Reviewable.cs" />
+    <Compile Include="ModelClasses\Reviewee.cs" />
+    <Compile Include="ModelClasses\Round.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Activity\SplashscreenEmployee.cs" />
+    <Compile Include="Service\AzureDataService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -204,9 +223,12 @@
     <AndroidResource Include="Resources\layout\EmpQuestionWiseRating.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\Ratinglist.axml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\values\Strings.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\custom_seekbar_progress.xml" />
@@ -361,7 +383,7 @@
     <AndroidResource Include="Resources\drawable\custom_seekbar_progress4.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="POCOClasses\" />
+    <AndroidResource Include="Resources\layout\footer.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\EmpSideStickyHeader.xml">

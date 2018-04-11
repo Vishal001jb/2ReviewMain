@@ -1,4 +1,3 @@
-E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\2ReviewEmployeeSideHomeScreen.csprojResolveAssemblyReference.cache
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\2ReviewEmployeeSideHomeScreen.dll
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\2ReviewEmployeeSideHomeScreen.pdb
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\x_2ReviewEmployeeSideHomeScreen.x_2ReviewEmployeeSideHomeScreen.apk
@@ -64,6 +63,7 @@ E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeS
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\newuser.xml
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\userinput.xml
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\empquestionwiserating.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\ratinglist.xml
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\values\strings.xml
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\custom_seekbar_progress.xml
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\adddesignation.png
@@ -115,11 +115,14 @@ E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeS
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\custom_seekbar_progress2.xml
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\custom_seekbar_progress3.xml
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\drawable\custom_seekbar_progress4.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\footer.xml
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\res\layout\empsidestickyheader.xml
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\R.cs.flag
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\uploadflags.txt
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\2ReviewEmployeeSideHomeScreen.dll.mdb
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\android\assets\2ReviewEmployeeSideHomeScreen.dll.mdb
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\2ReviewEmployeeSideHomeScreen.csprojResolveAssemblyReference.cache
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\2ReviewEmployeeSideHomeScreen.dll
 bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb
 bin\Debug\System.Core.pdb
