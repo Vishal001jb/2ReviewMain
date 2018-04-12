@@ -29,8 +29,7 @@ namespace _2ReviewEmployeeSideHomeScreen.Service
         IMobileServiceSyncTable<Reviewable> ReviewableTable;
         IMobileServiceSyncTable<Reviewee> RevieweeTable;
         IMobileServiceSyncTable<Round> RoundTable;
-
-        public async Task Initialize()
+        public void Initialize()
         {
             //Get our sync table that will call out to azure
             CurrentPlatform.Init();
@@ -56,7 +55,7 @@ namespace _2ReviewEmployeeSideHomeScreen.Service
             store.DefineTable<Reviewee>();
             store.DefineTable<Round>();
 
-            await MobileService.SyncContext.InitializeAsync(store, new MobileServiceSyncHandler());
+            MobileService.SyncContext.InitializeAsync(store, new MobileServiceSyncHandler());
 
             QuesTable = MobileService.GetSyncTable<Question>();
             AnswerTable = MobileService.GetSyncTable<Answer>();
@@ -73,7 +72,6 @@ namespace _2ReviewEmployeeSideHomeScreen.Service
             ReviewableTable = MobileService.GetSyncTable<Reviewable>();
             RevieweeTable = MobileService.GetSyncTable<Reviewee>();
             RoundTable = MobileService.GetSyncTable<Round>();
-
             //EmpPerformanceTable = MobileService.GetSyncTable<EmployeePerfomance>();
             //var EP = new EmployeePerfomance();
             //EP.Reviewable_Id = "1";
@@ -84,14 +82,14 @@ namespace _2ReviewEmployeeSideHomeScreen.Service
 
             //await EmpPerformanceTable.InsertAsync(EP);
 
-            var thingsToDo = await EmpPerformanceTable.Select(E => E.Id).ToListAsync();
-            //Debug.WriteLine("Items from Local {0}", string.Join(", ", thingsToDo));
+            //var thingsToDo = await EmpPerformanceTable.Select(E => E.Id).ToListAsync();
+            ////Debug.WriteLine("Items from Local {0}", string.Join(", ", thingsToDo));
 
-            var remoteTable = MobileService.GetTable<EmployeePerfomance>();
+            //var remoteTable = MobileService.GetTable<EmployeePerfomance>();
 
-            var remoteItems = remoteTable.Select(e => e.Id).ToListAsync();
+            //var remoteItems = remoteTable.Select(e => e.Id).ToListAsync();
 
-            Debug.WriteLine("Items From Server {0}", string.Join(", ", remoteItems));
+            //Debug.WriteLine("Items From Server {0}", string.Join(", ", remoteItems));
         }
 
         public async Task<List<string>> GetEmpRoundWisePerformance()
@@ -125,43 +123,43 @@ namespace _2ReviewEmployeeSideHomeScreen.Service
 
             ReadOnlyCollection<MobileServiceTableOperationError> syncErrors = null;
 
-            try
-            {
+            //try
+            //{
                 // The first parameter is a query name that is used internally by the client SDK to implement incremental sync.
                 // Use a different query name for each unique query in your program.
                 await EmpPerformanceTable.PullAsync("allRoundWiseEmpPerformance", EmpPerformanceTable.CreateQuery());
                 await MobileService.SyncContext.PushAsync();
-            }
-            catch (MobileServicePushFailedException exc)
-            {
-                if (exc.PushResult != null)
-                {
-                    syncErrors = exc.PushResult.Errors;
-                    //Simple error/ conflict handling.
-                    if (syncErrors != null)
-                    {
-                        foreach (var error in syncErrors)
-                        {
-                            if (error.OperationKind == MobileServiceTableOperationKind.Update && error.Result != null)
-                            {
-                                //Update failed, revert to server's copy
-                                await error.CancelAndUpdateItemAsync(error.Result);
-                            }
-                            else
-                            {
-                                //Discard local change
-                               await error.CancelAndDiscardItemAsync();
-                            }
+            //}
+            //catch (MobileServicePushFailedException exc)
+            //{
+            //    if (exc.PushResult != null)
+            //    {
+            //        syncErrors = exc.PushResult.Errors;
+            //        //Simple error/ conflict handling.
+            //        if (syncErrors != null)
+            //        {
+            //            foreach (var error in syncErrors)
+            //            {
+            //                if (error.OperationKind == MobileServiceTableOperationKind.Update && error.Result != null)
+            //                {
+            //                    //Update failed, revert to server's copy
+            //                    await error.CancelAndUpdateItemAsync(error.Result);
+            //                }
+            //                else
+            //                {
+            //                    //Discard local change
+            //                   await error.CancelAndDiscardItemAsync();
+            //                }
 
-                            Debug.WriteLine(@"Error executing sync operation. Item: {0} ({1}). Operation discarded.", error.TableName, error.Item["id"]);
-                        }
-                    }
-                    else
-                    {
-                        Debug.WriteLine(@"SyncErrors : ", syncErrors);
-                    }
-                }
-            }
+            //                Debug.WriteLine(@"Error executing sync operation. Item: {0} ({1}). Operation discarded.", error.TableName, error.Item["id"]);
+            //            }
+            //        }
+            //        else
+            //        {
+            //            Debug.WriteLine(@"SyncErrors : ", syncErrors);
+            //        }
+            //    }
+            //}
         }
     }
 }

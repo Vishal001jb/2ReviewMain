@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
-    <Jar>obj\Debug\lp\16\jl\arch-core-common.jar</Jar>
-    <Jar>obj\Debug\lp\17\jl\arch-lifecycle-common.jar</Jar>
-    <Jar>obj\Debug\lp\20\jl\support-annotations.jar</Jar>
     <Jar>E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\lp\16\jl\arch-core-common.jar</Jar>
     <Jar>E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\lp\17\jl\arch-lifecycle-common.jar</Jar>
     <Jar>E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\lp\18\jl\bin\classes.jar</Jar>

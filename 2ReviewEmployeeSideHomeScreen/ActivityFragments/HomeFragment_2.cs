@@ -3,13 +3,12 @@ using Android.App;
 using Android.OS;
 using Android.Support.V7.Widget;
 using Android.Views;
-using _2ReviewEmployeeSideHomeScreen.ModelClasses;
 using System.Collections.Generic;
 using _2ReviewEmployeeSideHomeScreen.Service;
-using System.Threading.Tasks;
 using Android.Content;
 using Android.Widget;
-using System.Diagnostics;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace _2ReviewEmployeeSideHomeScreen.ActivityFragment
 {
@@ -18,33 +17,40 @@ namespace _2ReviewEmployeeSideHomeScreen.ActivityFragment
         private RecyclerView mRecyclerView;
         private RecyclerView.LayoutManager mLayoutManager;
         private RecyclerView.Adapter mLayoutAdapter;
-        private List<string> mPerformanceIdList;
         private static LayoutInflater inflater;
         private Context context;
         private AzureDataService mAzureDataService;
+        private List<string> mPerformanceIdList;
+        private bool isComplete = false;
+
+
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             mAzureDataService = new AzureDataService();
             context = Activity;
             inflater = (LayoutInflater)context.GetSystemService(Context.LayoutInflaterService);
+            mPerformanceIdList = new List<string>();
+            mAzureDataService.Initialize();
         }
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             ViewGroup root = (ViewGroup)inflater.Inflate(Resource.Layout.Home, null);
-            mRecyclerView = root.FindViewById<RecyclerView>(Resource.Id.roundProgressRecyclerView);
             setPerformanceList();
-            mLayoutManager = new LinearLayoutManager(Activity);
-            mRecyclerView.SetLayoutManager(mLayoutManager);
-            mLayoutAdapter = new RecyclerAdapter(mPerformanceIdList);
+            System.Diagnostics.Debug.WriteLine("Performance Id {0}", mPerformanceIdList.Count);
+            mRecyclerView = root.FindViewById<RecyclerView>(Resource.Id.roundProgressRecyclerView);
             return root;
         }
+        
 
         public async void setPerformanceList()
         {
-            await mAzureDataService.Initialize();
             mPerformanceIdList = await mAzureDataService.GetEmpRoundWisePerformance();
-            System.Diagnostics.Debug.WriteLine("Items from Local {0}", string.Join(", ", mPerformanceIdList.Count));
+            mLayoutManager = new LinearLayoutManager(Activity);
+            mRecyclerView.SetLayoutManager(mLayoutManager);
+            mLayoutAdapter = new RecyclerAdapter(mPerformanceIdList);
+            mRecyclerView.SetAdapter(mLayoutAdapter);
+            System.Diagnostics.Debug.WriteLine("Performance Id in setperlist {0}", mPerformanceIdList.Count);
         }
 
         public static implicit operator Fragment(HomeFragment v)
@@ -59,7 +65,6 @@ namespace _2ReviewEmployeeSideHomeScreen.ActivityFragment
             public RecyclerAdapter(List<string> mPerformanceIdList)
             {
                 this.mPerformanceIdList = mPerformanceIdList;
-                System.Diagnostics.Debug.WriteLine("Performance Id {0}", mPerformanceIdList.Count);
             }
 
             public override int ItemCount
