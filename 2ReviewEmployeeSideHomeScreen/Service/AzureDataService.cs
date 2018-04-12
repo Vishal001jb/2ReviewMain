@@ -34,7 +34,7 @@ namespace _2ReviewEmployeeSideHomeScreen.Service
         {
             //Get our sync table that will call out to azure
             CurrentPlatform.Init();
-            MobileService = new MobileServiceClient("http://2review.azurewebsites.net");
+            MobileService = new MobileServiceClient("https://2review.azurewebsites.net");
 
             //setup our local sqlite store and intialize our table
             const string path = "2Review.db";
@@ -96,7 +96,7 @@ namespace _2ReviewEmployeeSideHomeScreen.Service
 
         public async Task<List<string>> GetEmpRoundWisePerformance()
         {
-            //await Sync();
+            await Sync();
             var result = await EmpPerformanceTable.Select(EPT => EPT.Id).ToListAsync();
             return result;
         }

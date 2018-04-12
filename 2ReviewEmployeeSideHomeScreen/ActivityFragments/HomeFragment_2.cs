@@ -59,6 +59,7 @@ namespace _2ReviewEmployeeSideHomeScreen.ActivityFragment
             public RecyclerAdapter(List<string> mPerformanceIdList)
             {
                 this.mPerformanceIdList = mPerformanceIdList;
+                System.Diagnostics.Debug.WriteLine("Performance Id {0}", mPerformanceIdList.Count);
             }
 
             public override int ItemCount
@@ -70,7 +71,6 @@ namespace _2ReviewEmployeeSideHomeScreen.ActivityFragment
             {
                 MyView myHolder = holder as MyView;
                 myHolder.mRoundName.Text = mPerformanceIdList[position];
-                System.Diagnostics.Debug.WriteLine("Performance Id {0}", myHolder.mRoundName.Text);
             }
 
             public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
