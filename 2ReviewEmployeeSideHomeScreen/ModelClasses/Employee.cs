@@ -12,7 +12,7 @@ namespace _2ReviewEmployeeSideHomeScreen.ModelClasses
         [Version]
         public string AzureVersion { get; set; }
 
-        public string Employee_Credential_Id { get; set; }
+        public string EmployeeCredential_Id { get; set; }
         public string Employee_First_Name { get; set; }
         public string Employee_Middle_Name { get; set; }
         public string Employee_Last_Name { get; set; }

@@ -15,6 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/txtRoundName"
+            android:layout_gravity="left"
             android:layout_weight="6"
             android:textSize="15sp" />
         <TextView
@@ -22,6 +23,7 @@
             android:textSize="15sp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="right"
             android:id="@+id/txtDate"
             android:layout_weight="20" />
     </LinearLayout>
@@ -32,18 +34,16 @@
         android:weightSum="10"
         android:paddingBottom="10dp"
         android:paddingTop="10dp">
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/cbxRate"
-            android:button="@android:drawable/btn_star"
-            android:layout_weight="2" />
+      <ImageView
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:src="@mipmap/ic_grade_black_24dp" />
         <TextView
-            android:textColor="#00CED1"
-            android:textSize="15sp"
+            android:textSize="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/txtRateCount"
+            android:layout_marginLeft="10dp"
             android:layout_weight="3" />
         <ProgressBar
             android:paddingTop="10dp"
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/progressrate"
             android:indeterminateTintMode="src_atop"
-            android:progressTint="#006400"
-            android:progressDrawable="@drawable/custom_seekbar_progress" />
+            android:progressTint="#9b3636"
+            android:progressDrawable="@drawable/custom_seekbar_progress4" />
     </LinearLayout>
 </LinearLayout>

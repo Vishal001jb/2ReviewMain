@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace _2ReviewEmployeeSideHomeScreen.ModelClasses
 {
-    public class FormQuestion
+    public class Form_Question
     {
         [JsonProperty("Id")]
         public string Id { get; set; }

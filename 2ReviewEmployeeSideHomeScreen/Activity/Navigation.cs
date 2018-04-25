@@ -10,7 +10,7 @@ using Android.Views;
 
 namespace _2ReviewEmployeeSideHomeScreen.Activity
 {
-    [Activity(Label = "2Review", MainLauncher = true, Theme = "@style/Theme.AppCompat.Light.NoActionBar", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
+    [Activity(Label = "2Review", Theme = "@style/Theme.AppCompat.Light.NoActionBar", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
     public class Navigation : AppCompatActivity
     {
         Android.Support.V7.Widget.Toolbar Toolbar;

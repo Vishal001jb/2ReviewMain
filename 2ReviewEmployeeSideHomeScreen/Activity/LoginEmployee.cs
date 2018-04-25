@@ -7,6 +7,7 @@ using Android.OS;
 using Android.Support.Design.Widget;
 using Android.Support.V7.App;
 using Android.Widget;
+using System.Text.RegularExpressions;
 
 namespace _2ReviewEmployeeSideHomeScreen.Activity
 {
@@ -36,13 +37,24 @@ namespace _2ReviewEmployeeSideHomeScreen.Activity
             textInputLayoutPassword = FindViewById<TextInputLayout>(Resource.Id.userNameTextInputLayout);
             textInputLayoutUsername = FindViewById<TextInputLayout>(Resource.Id.passwordTextInputLayout);
         }
-        private void check_validation(object sender, EventArgs e)
+
+        Regex EmailRegex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
+        public bool ValidateEmail(string email)
         {
+            if (string.IsNullOrWhiteSpace(email))
+                return false;
+
+            return EmailRegex.IsMatch(email);
+        }
+
+        private void check_validation(object sender, EventArgs e)
+        { 
+
             if (editTextUsername.Text.Contains("abc@1rivet.com"))
             {
                 if (editTextPassword.Text.Equals("123456"))
                 {
-                    Toast.MakeText(this, "Login", ToastLength.Short).Show();
+                    //Toast.MakeText(this, "Login", ToastLength.Short).Show();
                     editTextUsername.Text = "";
                     editTextPassword.Text = "";
                     StartActivity(new Intent(this, typeof(Navigation)));

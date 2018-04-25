@@ -1,9 +1,12 @@
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\2ReviewEmployeeSideHomeScreen.csproj.CoreCompileInputs.cache
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\2ReviewEmployeeSideHomeScreen.dll.config
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\2ReviewEmployeeSideHomeScreen.dll
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\2ReviewEmployeeSideHomeScreen.pdb
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\x_2ReviewEmployeeSideHomeScreen.x_2ReviewEmployeeSideHomeScreen.apk
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\x_2ReviewEmployeeSideHomeScreen.x_2ReviewEmployeeSideHomeScreen-Signed.apk
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Microsoft.Azure.Mobile.Client.dll
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Microsoft.Azure.Mobile.Client.SQLiteStore.dll
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Microsoft.WindowsAzure.Storage.dll
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Newtonsoft.Json.dll
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PCLCrypto.dll
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PInvoke.BCrypt.dll
@@ -39,6 +42,8 @@ E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeS
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Microsoft.Azure.Mobile.Client.xml
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Microsoft.Azure.Mobile.Client.SQLiteStore.xml
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Microsoft.WindowsAzure.Storage.dll.mdb
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Newtonsoft.Json.xml
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PCLCrypto.xml
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PInvoke.BCrypt.xml
@@ -47,7 +52,6 @@ E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeS
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\PInvoke.Windows.Core.xml
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Refractored.Controls.CircleImageView.xml
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\Validation.xml
-E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\2ReviewEmployeeSideHomeScreen.csproj.CoreCompileInputs.cache
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\2ReviewEmployeeSideHomeScreen.dll
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\2ReviewEmployeeSideHomeScreen.pdb
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\android\bin\x_2ReviewEmployeeSideHomeScreen.x_2ReviewEmployeeSideHomeScreen.apk
@@ -121,8 +125,10 @@ E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeS
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\uploadflags.txt
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\2ReviewEmployeeSideHomeScreen.dll.mdb
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\android\assets\2ReviewEmployeeSideHomeScreen.dll.mdb
+E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\android\assets\Microsoft.WindowsAzure.Storage.dll.mdb
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\obj\Debug\2ReviewEmployeeSideHomeScreen.csprojResolveAssemblyReference.cache
 E:\vishal barot\xamarin\Demo apps\2ReviewEmployeeSideHomeScreen\2ReviewEmployeeSideHomeScreen\bin\Debug\2ReviewEmployeeSideHomeScreen.dll
+bin\Debug\Microsoft.CSharp.pdb
 bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb
 bin\Debug\System.Core.pdb
@@ -130,14 +136,15 @@ bin\Debug\System.pdb
 bin\Debug\System.IO.Compression.pdb
 bin\Debug\System.Net.Http.pdb
 bin\Debug\System.Xml.pdb
+bin\Debug\System.Xml.Linq.pdb
 bin\Debug\System.Runtime.Serialization.pdb
 bin\Debug\System.ServiceModel.Internals.pdb
-bin\Debug\System.Xml.Linq.pdb
-bin\Debug\Microsoft.CSharp.pdb
 bin\Debug\System.Numerics.pdb
 bin\Debug\Mono.Security.pdb
 bin\Debug\System.ComponentModel.Composition.pdb
 obj\Debug\linksrc\2ReviewEmployeeSideHomeScreen.dll.mdb
+obj\Debug\linksrc\Microsoft.WindowsAzure.Storage.dll.mdb
+obj\Debug\linksrc\Microsoft.CSharp.pdb
 obj\Debug\linksrc\Mono.Android.pdb
 obj\Debug\linksrc\mscorlib.pdb
 obj\Debug\linksrc\System.Core.pdb
@@ -145,10 +152,9 @@ obj\Debug\linksrc\System.pdb
 obj\Debug\linksrc\System.IO.Compression.pdb
 obj\Debug\linksrc\System.Net.Http.pdb
 obj\Debug\linksrc\System.Xml.pdb
+obj\Debug\linksrc\System.Xml.Linq.pdb
 obj\Debug\linksrc\System.Runtime.Serialization.pdb
 obj\Debug\linksrc\System.ServiceModel.Internals.pdb
-obj\Debug\linksrc\System.Xml.Linq.pdb
-obj\Debug\linksrc\Microsoft.CSharp.pdb
 obj\Debug\linksrc\System.Numerics.pdb
 obj\Debug\linksrc\Mono.Security.pdb
 obj\Debug\linksrc\System.ComponentModel.Composition.pdb

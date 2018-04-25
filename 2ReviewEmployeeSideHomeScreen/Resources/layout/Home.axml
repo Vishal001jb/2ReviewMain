@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff">
-  <include layout="@layout/EmpSideStickyHeader"/>
-  <android.support.v7.widget.RecyclerView
+    <include
+        layout="@layout/EmpSideStickyHeader" />
+    <android.support.v7.widget.RecyclerView
         android:layout_above="@id/footer"
         android:layout_below="@id/stickyHeaderLinearLayout"
         android:id="@+id/roundProgressRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scrollbars="vertical" />
-  <include layout="@layout/footer"/>
 </LinearLayout>

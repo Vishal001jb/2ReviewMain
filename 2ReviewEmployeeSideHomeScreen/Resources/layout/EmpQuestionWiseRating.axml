@@ -52,7 +52,7 @@
             android:layout_height="30dp"
             android:layout_width="match_parent"
             android:progress="80"
-            android:progressDrawable="@drawable/custom_seekbar_progress1"
+            android:progressDrawable="@drawable/custom_seekbar_progress3"      
             android:background="#ffffff" />
     </LinearLayout>
     <LinearLayout

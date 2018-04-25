@@ -11,6 +11,8 @@ namespace _2ReviewEmployeeSideHomeScreen.ModelClasses
 
         [Version]
         public string AzureVersion { get; set; }
+        [CreatedAt]
+        public DateTime CreatedAt { get; set; }
 
         public string Employee_Id { get; set; }
         public string Designation_Id { get; set; }

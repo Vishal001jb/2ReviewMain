@@ -13,6 +13,9 @@ namespace _2ReviewEmployeeSideHomeScreen.ModelClasses
         [Version]
         public string AzureVersion { get; set; }
 
+        [CreatedAt]
+        public DateTime CreatedAt { get; set; }
+
         public string Status { get; set; }
 
         public string Round_Name { get; set; }

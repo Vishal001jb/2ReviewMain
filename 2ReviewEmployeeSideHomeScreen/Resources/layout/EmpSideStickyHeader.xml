@@ -32,6 +32,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/rankingLinearLayout">
       <TextView
+          android:id="@+id/rankingTextView"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="right"
@@ -40,7 +41,7 @@
           android:text="Ranking"
           android:textColor="#2dadfc" />
       <TextView
-          android:id="@+id/rankingTextView"
+          android:id="@+id/empRankTextView"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="right"

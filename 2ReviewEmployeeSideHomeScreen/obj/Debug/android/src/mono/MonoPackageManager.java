@@ -109,6 +109,7 @@ class MonoPackageManager_Resources {
 		"2ReviewEmployeeSideHomeScreen.dll",
 		"Microsoft.Azure.Mobile.Client.dll",
 		"Microsoft.Azure.Mobile.Client.SQLiteStore.dll",
+		"Microsoft.WindowsAzure.Storage.dll",
 		"Newtonsoft.Json.dll",
 		"PCLCrypto.dll",
 		"PInvoke.BCrypt.dll",

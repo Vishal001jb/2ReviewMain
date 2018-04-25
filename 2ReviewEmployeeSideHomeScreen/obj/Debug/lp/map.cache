@@ -1,5 +1,6 @@
 Microsoft.Azure.Mobile.Client
 Microsoft.Azure.Mobile.Client.SQLiteStore
+Microsoft.WindowsAzure.Storage
 Newtonsoft.Json
 PCLCrypto
 PInvoke.BCrypt
