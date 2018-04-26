@@ -15,6 +15,7 @@ namespace _2ReviewEmployeeSideHomeScreen.ModelClasses
         public string Reviewable_Id { get; set; }
         public string Reviewee_Id { get; set; }
         public string Form_Id { get; set; }
+        public string Round_Id { get; set; }
 
     }
 }

@@ -34,13 +34,19 @@ namespace _2ReviewEmployeeSideHomeScreen.Service
         IMobileServiceSyncTable<Reviewee> RevieweeTable;
         IMobileServiceSyncTable<Round> RoundTable;
         IMobileServiceTable<Employee_Perfomance> EPT;
-
+        static string DesignationId;
+        static List<string> Assignment_Id;
+        static List<string> Form_Question_Id;
+        static List<string> Round_Id;
         List<Employee_Perfomance> EP;
         List<List<KeyValuePair<string, object>>> mEmpRoundDetails;
         public async Task<bool> Initialize()
         {
             //EP = new List<Employee_Perfomance>();
             mEmpRoundDetails = new List<List<KeyValuePair<string, object>>>();
+            Assignment_Id = new List<string>();
+            Form_Question_Id = new List<string>();
+            Round_Id = new List<string>();
             //Get our sync table that will call out to azure
             MobileService = new MobileServiceClient("https://2review.azurewebsites.net");
 
@@ -92,14 +98,17 @@ namespace _2ReviewEmployeeSideHomeScreen.Service
             //var remoteItems = await remoteTable.ToListAsync();
             //Debug.WriteLine("Items from the server: {0}", string.Join(", ", remoteItems));
 
-            //var rev = new Reviewable();
-            //rev.Designation_Id = "0253be21ede5455ea5a02f336b5fde64";
-            //rev.Employee_Id = "726495f595dd432d922e2da7946a7136";
-            //rev.Round_Id = "70f588eb88b34151998479dcbfcb1178";
-            //rev.Status = "Complete";
-            //rev.Total = 5;
+            //var Assign = new Assignment();
+            //Assign.Form_Id = "33749429419b4c7f98be434a11d08040";
+            //Assign.Reviewable_Id = "10863f130d5649cc94f1954f8c10fd4f";
+            //Assign.Reviewee_Id = "1032c63b686d44bc909dc02d68d2d5d3";
+            //Assign.Round_Id = "4d00bed855d149b0a4a4f24a561747b5";
 
-            //ReviewableTable.InsertAsync(rev);
+            //AssignTable.InsertAsync(Assign);
+
+            //var fq = new Form_Question();
+            //fq.Form_Id = "33749429419b4c7f98be434a11d08040";
+            //fq.Question_Id = "48a7ec8e91df43c1b24c27bd2df9976f";
 
             //var EP = new Employee_Perfomance();
             //EP.Reviewable_Id = "faadafd2091247f8ae514b0a7d38a043";
@@ -153,11 +162,11 @@ namespace _2ReviewEmployeeSideHomeScreen.Service
             List<string> RoundName = new List<string>();
             try
             {
-                var RoundId = await ReviewableTable.Where(r => r.Employee_Id == EmpId).Select(r => r.Round_Id).ToListAsync();
-                Debug.WriteLine("Round Id from Reviewable table : ", string.Join(", ", RoundId));
-                for (int i = 0; i < RoundId.Count; i++)
+                Round_Id = await ReviewableTable.Where(r => r.Employee_Id == EmpId).Select(r => r.Round_Id).ToListAsync();
+                Debug.WriteLine("Round Id from Reviewable table : ", string.Join(", ", Round_Id));
+                for (int i = 0; i < Round_Id.Count; i++)
                 {
-                    var result = await RoundTable.Where(r => r.Id == RoundId[i]).Select(r => r.Round_Name).ToListAsync();
+                    var result = await RoundTable.Where(r => r.Id == Round_Id[i]).Select(r => r.Round_Name).ToListAsync();
                     RoundName.Add(result[0]);
                     Debug.WriteLine(@"Round Name from Round table {0}", string.Join(", ", result));
                 }
@@ -184,17 +193,97 @@ namespace _2ReviewEmployeeSideHomeScreen.Service
                 return RoundDate;
         }
 
+        public async void getQuestionText(string EmpId , string RoundId)
+        {
+            List<string> Qtext = new List<string>();
+            try
+            {
+                var rid = await ReviewableTable.OrderByDescending(r => r.CreatedAt).Where(e => e.Employee_Id == EmpId && e.Round_Id == RoundId).Select(r => r.Id).ToListAsync();
+                Debug.WriteLine(@"getQuestionText ReviewableId {0}", string.Join(", ", rid));
+
+                //var RoundId = await ReviewableTable.Where(r => r.Employee_Id == EmpId).Select(r => r.Round_Id).ToListAsync();
+                //Debug.WriteLine(@"getQuestionText Round Id {0}", string.Join(", ", rid));
+                var fid = await AssignTable.Where(a => a.Reviewable_Id == rid[0]).Select(a => a.Form_Id).ToListAsync();
+                Debug.WriteLine(@"getQuestionText Form Id {0}", string.Join(", ", fid));
+                Assignment_Id = await AssignTable.Where(a => a.Reviewable_Id == rid[0]).Select(a => a.Id).ToListAsync();
+                Debug.WriteLine(@"getQuestionText Assignment Id {0}", string.Join(", ", Assignment_Id));
+                var qid = await FormQuesTable.Where(fq => fq.Form_Id == fid[0]).Select(fq => fq.Question_Id).ToListAsync();
+                Debug.WriteLine(@"getQuestionText Question Id {0}", string.Join(", ", qid));
+                Form_Question_Id = await FormQuesTable.Where(fq => fq.Form_Id == fid[0]).Select(fq => fq.Id).ToListAsync();
+                Debug.WriteLine(@"getQuestionText Form_Question_Id {0}", string.Join(", ", Form_Question_Id));
+
+                List<Task<List<string>>> tasks = new List<Task<List<string>>>();
+
+                for (int i = 0; i < qid.Count; i++)
+                {
+                    Debug.WriteLine(@"getQuestionText Question_Id in Loop {0}", string.Join(", ", qid[i]));
+                    tasks.Add(QuesTable.Where(q => q.Id == qid[i]).Select(q => q.Question_Text).ToListAsync());
+                }
+                var res = await Task.WhenAll(tasks);
+
+                for (int i = 0; i < res.Length; i++)
+                {
+                    var qtext = res[i];
+                    Debug.WriteLine(@"getQuestionText Question Text from Azure {0}", string.Join(", ", qtext));
+                    Qtext.Add(qtext[0]);
+                    Debug.WriteLine(@"getQuestionText Question Text {0}", string.Join(", ", Qtext));
+                }
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(@"Exception {0}", e.Message);
+            }
+        }
+
+
+        public async void getQuestionWiseRating()
+        {
+            List<int> total = new List<int>();
+            float rate = 0;
+            for (int i = 0; i < Assignment_Id.Count; i++)
+            {
+                int indiviualTotal = 0;
+                for (int j=0;i<Form_Question_Id.Count;j++)
+                {
+                    var ans = await AnswerTable.Where(a => a.Assignment_Id == Assignment_Id[i] && a.Form_Question_Id == Form_Question_Id[0]).Select(a => a.Answers).ToListAsync();
+                    indiviualTotal = indiviualTotal+ans[0];
+                }
+                total.Add(indiviualTotal);
+            }
+
+            for (int i=0;i<total.Count;i++)
+            {
+                rate = rate + total[i]/4;
+            }
+
+            //return (rate / total.Count) + "";
+
+        }
+
         public async Task<string> getEmployeeName(string EmpId)
         {
             var FirstName = await EmpTable.Where(e => e.Id == EmpId).Select(e => e.Employee_First_Name).ToListAsync();
+            Debug.WriteLine(@"Employee Name {0}", string.Join(", ", FirstName));
             var LastName = await EmpTable.Where(e => e.Id == EmpId).Select(e => e.Employee_Last_Name).ToListAsync();
-            return FirstName + " " + LastName;
+            return FirstName[0] + " " + LastName[0];
+        }
+
+        public async Task<string> getEmployeeDesination(string EmpId)
+        {
+            var Did = await EmpDesigTable.Where(ed => ed.Id == EmpId).Select(ed => ed.Designation_Id).ToListAsync();
+            DesignationId = Did[0];
+            Debug.WriteLine(@"Designation Id {0}", string.Join(", ", Did));
+            var designation = await DesigTable.Where(d => d.Id == Did[0]).Select(d => d.DesignationName).ToListAsync();
+            Debug.WriteLine(@"Designation {0}", string.Join(", ", designation));
+            return designation[0];
         }
 
         public async Task<string> getEmployeeRanking(string EmpId)
         {
             var rid = await ReviewableTable.OrderByDescending(r => r.CreatedAt).Where(e => e.Employee_Id == EmpId).Select(r => r.Id).ToListAsync();
-            var rank = await EmpPerformanceTable.Where(p => p.Round_Id == rid[0]).Select(p => p.Ranking).ToListAsync();
+            Debug.WriteLine(@"Reviewable id {0}", string.Join(", ", rid));
+            var rank = await EmpPerformanceTable.Where(p => p.Reviewable_Id == rid[0]).Select(p => p.Ranking).ToListAsync();
+            Debug.WriteLine(@"Rank {0}", string.Join(", ", rank));
             return rank[0]+"";
         }
 
@@ -224,6 +313,7 @@ namespace _2ReviewEmployeeSideHomeScreen.Service
             {
                 // The first parameter is a query name that is used internally by the client SDK to implement incremental sync.
                 // Use a different query name for each unique query in your program.
+
                 await EmpPointsTable.PullAsync("allEmployeePoints", EmpPointsTable.CreateQuery());
                 await AnswerTable.PullAsync("allAnswer", AnswerTable.CreateQuery());
                 await AssignTable.PullAsync("allAssignment", AssignTable.CreateQuery());
@@ -259,6 +349,7 @@ namespace _2ReviewEmployeeSideHomeScreen.Service
                             Debug.WriteLine(@"Mobile Service Table Operation Kind: {0}.", MobileServiceTableOperationKind.Update);
                             Debug.WriteLine(@"error.Result: {0}.", error.Result);
                             Debug.WriteLine(@"error.Status: {0}.", error.Status);
+
                             Debug.WriteLine(@"HttpStatusCode.PreconditionFailed: {0}.", HttpStatusCode.PreconditionFailed);
                             if (error.OperationKind == MobileServiceTableOperationKind.Update && error.Result != null)
                             {

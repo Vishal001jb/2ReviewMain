@@ -15,7 +15,7 @@ using Android.Widget;
 
 namespace _2ReviewEmployeeSideHomeScreen.Activity
 {
-    [Activity(Label = "2Review", MainLauncher = true, Icon = "@drawable/ICON", Theme = "@style/Theme.AppCompat.Light.NoActionBar", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
+    [Activity(Label = "2Review", Icon = "@drawable/ICON", Theme = "@style/Theme.AppCompat.Light.NoActionBar", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
     public class SplashscreenActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

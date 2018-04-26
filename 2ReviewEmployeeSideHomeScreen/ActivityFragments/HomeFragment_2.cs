@@ -49,6 +49,7 @@ namespace _2ReviewEmployeeSideHomeScreen.ActivityFragment
             mEmpNameTextView = root.FindViewById<TextView>(Resource.Id.empNameTextView);
             mEmpRankTextView = root.FindViewById<TextView>(Resource.Id.empRankTextView);
             mEmpDesignationTextView = root.FindViewById<TextView>(Resource.Id.empDesignationTextView);
+            //setEmployeeDetail();
             //System.Diagnostics.Debug.WriteLine("Performance Id {0}", mPerformanceIdList.Count);
             mRecyclerView = root.FindViewById<RecyclerView>(Resource.Id.roundProgressRecyclerView);
 
@@ -59,13 +60,19 @@ namespace _2ReviewEmployeeSideHomeScreen.ActivityFragment
         {
             isComplete = await mAzureDataService.Initialize();
             if (isComplete)
-                setPerformanceList();
+            mAzureDataService.getQuestionText("726495f595dd432d922e2da7946a7136", "4d00bed855d149b0a4a4f24a561747b5");
+            //if (isComplete)
+            //    setPerformanceList();
         }
 
         public async void setEmployeeDetail()
         {
-            mEmpNameTextView.Text = await mAzureDataService.getEmployeeName("726495f595dd432d922e2da7946a7136");
-            mEmpRankTextView.Text = await mAzureDataService.getEmployeeRanking("726495f595dd432d922e2da7946a7136") +"";
+            string empname = await mAzureDataService.getEmployeeName("726495f595dd432d922e2da7946a7136");
+            string emprank = await mAzureDataService.getEmployeeRanking("726495f595dd432d922e2da7946a7136") + "";
+            string empdesignation = await mAzureDataService.getEmployeeDesination("726495f595dd432d922e2da7946a7136");
+            mEmpNameTextView.Text = empname;
+            mEmpRankTextView.Text = emprank;
+            mEmpDesignationTextView.Text = empdesignation;
         }
 
         public async void setPerformanceList()
@@ -115,10 +122,17 @@ namespace _2ReviewEmployeeSideHomeScreen.ActivityFragment
                 MyView myHolder = holder as MyView;
             
                 myHolder.mRoundName.Text = mRoundName[position];
+                myHolder.mMainView.Click += onClick;
                 string myDate = String.Format("{0:dd-MM-yyyy}", mRoundDate[position]);
                 myHolder.mRoundDate.Text = myDate;
                 myHolder.mRateCount.Text = mRoundProgress[position].ToString();
                 myHolder.mProgress1.Progress = (mRoundProgress[position] * 20);
+            }
+
+            void onClick(object sender, EventArgs e)
+            {
+                //var intent = new Intent(this,typeof())
+
             }
 
             public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
